@@ -24,3 +24,9 @@ Options:
   --version  Show version number                                       [boolean]
   --help     Show help                                                 [boolean]
 ```
+
+**Example**
+
+```
+node index update ReplaceEntity --model 5d81fb9e1dd9340001c0a6b4 --entity 01de253a-b668-46a6-a3bf-f09ac4c34ebf --input json/entity2.json --comparator id --host https://demo.solidatus.com --token qwertyuiop
+```
