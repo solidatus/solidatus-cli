@@ -1,0 +1,2898 @@
+{
+    "entities": {
+        "df7f73eb-305d-c7b0-cd83-9a53de7dde8e": {
+            "name": "Files",
+            "properties": {},
+            "children": [
+                "54626755-b6e5-50bb-17cb-c8408dcd5007",
+                "60e97f96-fa8f-20a2-5dd4-9063b934d6fc",
+                "44c48beb-a2d5-fb7a-570e-46278eb80595",
+                "2d8e8534-3032-c760-fd0c-59c621134b4b"
+            ]
+        },
+        "54626755-b6e5-50bb-17cb-c8408dcd5007": {
+            "name": "Counterparty",
+            "properties": {
+                "OBJECT_TYPE": "file"
+            },
+            "children": [
+                "cdeba9dd-1b88-9aeb-6c6c-2b7b3b2c42aa",
+                "7420caa7-c4a2-c03d-86f9-340524b5f472",
+                "86415125-5f38-eaca-2482-d9d8b8f974b5",
+                "11109d18-e9f9-6296-65de-fe22d36d481c"
+            ]
+        },
+        "cdeba9dd-1b88-9aeb-6c6c-2b7b3b2c42aa": {
+            "name": "counterparty",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Name",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "The legally registered name of the counterparty entity."
+            }
+        },
+        "7420caa7-c4a2-c03d-86f9-340524b5f472": {
+            "name": "counterparty_location",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Location",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A country of incorporation for the counterparty."
+            }
+        },
+        "86415125-5f38-eaca-2482-d9d8b8f974b5": {
+            "name": "counterparty_latitude",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Latitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A latitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "11109d18-e9f9-6296-65de-fe22d36d481c": {
+            "name": "counterparty_longitude",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Longitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A longitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "60e97f96-fa8f-20a2-5dd4-9063b934d6fc": {
+            "name": "Product",
+            "properties": {
+                "OBJECT_TYPE": "file"
+            },
+            "children": [
+                "ff243802-73cd-e79c-2057-31ddbe27c198",
+                "ae0ca367-8f15-a440-cc9f-90e475363961"
+            ]
+        },
+        "ff243802-73cd-e79c-2057-31ddbe27c198": {
+            "name": "product",
+            "properties": {
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Name",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Conformed name of product."
+            }
+        },
+        "ae0ca367-8f15-a440-cc9f-90e475363961": {
+            "name": "prod_type",
+            "properties": {
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Type",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Product classification based on company master product categories."
+            }
+        },
+        "44c48beb-a2d5-fb7a-570e-46278eb80595": {
+            "name": "Trial_Balance_1",
+            "properties": {
+                "OBJECT_TYPE": "file"
+            },
+            "children": [
+                "cb872e41-5429-d1f3-1f76-65a16f3ecb71",
+                "3cab810e-740c-b802-5421-4bbb4d726453",
+                "246d3de6-0840-0396-1660-0f9b6e0d637e",
+                "af6c1bd4-1414-7ca9-2311-61f54b77cc89",
+                "db05afe6-8fc6-43c4-38c9-83c72ee7343f",
+                "5854ac39-8a01-3f3a-eb88-211ece27dde0",
+                "60d8fa0d-0215-be88-b505-6d94f6eba849",
+                "61bdda9b-9afa-a054-a678-cb804001fdff",
+                "230ec2dc-e834-d83a-76b6-5ba9421cbe0d",
+                "ffc28608-f44b-05a5-8cbe-efd9cc49e239",
+                "39d7e256-fe2d-6c68-7492-e38afbdbe59c",
+                "697a5bef-d6b3-06b6-0470-c41139a0ffee",
+                "437a4837-321c-7433-f42a-7265edfe1546",
+                "476683fd-04c4-c03c-d531-f4d41635e60e"
+            ]
+        },
+        "cb872e41-5429-d1f3-1f76-65a16f3ecb71": {
+            "name": "PnL Date",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "3cab810e-740c-b802-5421-4bbb4d726453": {
+            "name": "Account",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Account",
+                "DataConcept": "Account",
+                "DataElementDefinition": "Account to which the transaction is posted.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "246d3de6-0840-0396-1660-0f9b6e0d637e": {
+            "name": "Country",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Country Of Transaction",
+                "DataConcept": "Country of operations",
+                "DataElementDefinition": "Country in which the transaction was received.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "af6c1bd4-1414-7ca9-2311-61f54b77cc89": {
+            "name": "Entity",
+            "properties": {
+                "DataOwner": "Rachel",
+                "DataOwnerDepartment": "Group Finance",
+                "DataElement": "Trial Balance Entity",
+                "DataConcept": "Legal Entity",
+                "DataElementDefinition": "Entity to which the transaction is posted.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "db05afe6-8fc6-43c4-38c9-83c72ee7343f": {
+            "name": "Cost Centre",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Cost Centre",
+                "DataConcept": "Cost Centre",
+                "DataElementDefinition": "Cost centre to which the transaction is posted.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "5854ac39-8a01-3f3a-eb88-211ece27dde0": {
+            "name": "IFRS L1",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "60d8fa0d-0215-be88-b505-6d94f6eba849": {
+            "name": "IFRS L2",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "61bdda9b-9afa-a054-a678-cb804001fdff": {
+            "name": "IFRS L3",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 3",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "3rd accounting classification level of transaction for IFRS reporting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "230ec2dc-e834-d83a-76b6-5ba9421cbe0d": {
+            "name": "IFRS L4",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 4",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "4th accounting classification level of transaction for IFRS reporting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "ffc28608-f44b-05a5-8cbe-efd9cc49e239": {
+            "name": "IFRS L5",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 5",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "5th accounting classification level of transaction for IFRS reporting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "39d7e256-fe2d-6c68-7492-e38afbdbe59c": {
+            "name": "IFRS L6",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 6",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "6th accounting classification level of transaction for IFRS reporting.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "697a5bef-d6b3-06b6-0470-c41139a0ffee": {
+            "name": "counterparty",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Name",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "The legally registered name of the counterparty entity.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "437a4837-321c-7433-f42a-7265edfe1546": {
+            "name": "product",
+            "properties": {
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Name",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Conformed name of product.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "476683fd-04c4-c03c-d531-f4d41635e60e": {
+            "name": "Value",
+            "properties": {
+                "DataOwner": "John",
+                "DataOwnerDepartment": "Financial Control",
+                "DataElement": "Trial Balance Value",
+                "DataConcept": "Posting Amount",
+                "DataElementDefinition": "Value in GBP (converted on the day of posting based on closing market rate) of the transaction.",
+                "DQThreshold": "30",
+                "DQScore": "20"
+            }
+        },
+        "2d8e8534-3032-c760-fd0c-59c621134b4b": {
+            "name": "Trial_Balance_2",
+            "properties": {
+                "OBJECT_TYPE": "file"
+            },
+            "children": [
+                "e69d5c9b-44c1-0c6e-6827-c6805f423be2",
+                "2a86a071-8863-03d0-929e-768e1779fa11",
+                "4b6a4306-16d2-b3f9-290e-b8144ff32227",
+                "4de118ae-48d5-dbde-d5e0-ee4e4cbbd2f5",
+                "64be86a5-ff63-7b8b-e2a8-230b5c3b9eba",
+                "b4fdee49-4e7d-3a96-2146-7143ad81dbc2",
+                "349e2083-e50f-8d52-1fac-d5b3bc7e22bb",
+                "5219cf1a-53b3-8a76-94d5-c63944a73a26",
+                "6bffb475-13a1-ba82-9de1-43b3ee51a91f",
+                "730e4bb9-5a81-0022-a08b-686247954456",
+                "1eb1db08-cc7c-7852-8bf0-57970284ca81",
+                "31e620b9-4b5e-f36f-4024-a4b7c020df07",
+                "136fad4f-e06d-65ac-cdf5-b7006adf9333",
+                "1a4cc8df-7bca-7faf-b8b7-d9e9c1dc3324"
+            ]
+        },
+        "e69d5c9b-44c1-0c6e-6827-c6805f423be2": {
+            "name": "PnL Date",
+            "properties": {
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting."
+            }
+        },
+        "2a86a071-8863-03d0-929e-768e1779fa11": {
+            "name": "Account",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Account",
+                "DataConcept": "Account",
+                "DataElementDefinition": "Account to which the transaction is posted."
+            }
+        },
+        "4b6a4306-16d2-b3f9-290e-b8144ff32227": {
+            "name": "Country",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Country Of Transaction",
+                "DataConcept": "Country of operations",
+                "DataElementDefinition": "Country in which the transaction was received."
+            }
+        },
+        "4de118ae-48d5-dbde-d5e0-ee4e4cbbd2f5": {
+            "name": "Entity",
+            "properties": {
+                "DataOwner": "Rachel",
+                "DataOwnerDepartment": "Group Finance",
+                "DataElement": "Trial Balance Entity",
+                "DataConcept": "Legal Entity",
+                "DataElementDefinition": "Entity to which the transaction is posted."
+            }
+        },
+        "64be86a5-ff63-7b8b-e2a8-230b5c3b9eba": {
+            "name": "Cost Centre",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Cost Centre",
+                "DataConcept": "Cost Centre",
+                "DataElementDefinition": "Cost centre to which the transaction is posted."
+            }
+        },
+        "b4fdee49-4e7d-3a96-2146-7143ad81dbc2": {
+            "name": "IFRS L1",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "349e2083-e50f-8d52-1fac-d5b3bc7e22bb": {
+            "name": "IFRS L2",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "5219cf1a-53b3-8a76-94d5-c63944a73a26": {
+            "name": "IFRS L3",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 3",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "3rd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "6bffb475-13a1-ba82-9de1-43b3ee51a91f": {
+            "name": "IFRS L4",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 4",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "4th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "730e4bb9-5a81-0022-a08b-686247954456": {
+            "name": "IFRS L5",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 5",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "5th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "1eb1db08-cc7c-7852-8bf0-57970284ca81": {
+            "name": "IFRS L6",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 6",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "6th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "31e620b9-4b5e-f36f-4024-a4b7c020df07": {
+            "name": "counterparty",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Name",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "The legally registered name of the counterparty entity."
+            }
+        },
+        "136fad4f-e06d-65ac-cdf5-b7006adf9333": {
+            "name": "product",
+            "properties": {
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Name",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Conformed name of product."
+            }
+        },
+        "1a4cc8df-7bca-7faf-b8b7-d9e9c1dc3324": {
+            "name": "Value",
+            "properties": {
+                "DataOwner": "John",
+                "DataOwnerDepartment": "Financial Control",
+                "DataElement": "Trial Balance Value",
+                "DataConcept": "Posting Amount",
+                "DataElementDefinition": "Value in GBP (converted on the day of posting based on closing market rate) of the transaction."
+            }
+        },
+        "eea56a3d-9f41-435f-972d-b69fd8091ac0": {
+            "name": "Staging",
+            "properties": {},
+            "children": [
+                "adf17946-3a60-a3d7-b4de-f736b9a833bc",
+                "9454a67c-d55c-0187-e2d5-bb30bdec8a92",
+                "6a2df8ef-4602-aacc-6470-7fdb13bfa936"
+            ]
+        },
+        "adf17946-3a60-a3d7-b4de-f736b9a833bc": {
+            "name": "ST_Counterparty",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "4ebb5336-a4e9-418a-b62f-167728ef5d58",
+                "3bc3fee8-ba12-e261-9eb6-5bc0bcea9948",
+                "2f3d991b-0883-a1f0-c3fd-c2ee5ef5a186",
+                "70f5d9d9-5dc6-8a5b-8e88-b9e0029afcc2",
+                "e19e8542-4de8-352b-df83-613ab090eb9c"
+            ]
+        },
+        "4ebb5336-a4e9-418a-b62f-167728ef5d58": {
+            "name": "counterparty",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Counterparty",
+                "COLUMN_NAME": "counterparty",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Name",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "The legally registered name of the counterparty entity."
+            }
+        },
+        "3bc3fee8-ba12-e261-9eb6-5bc0bcea9948": {
+            "name": "counterparty_type",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Counterparty",
+                "COLUMN_NAME": "counterparty_type",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Type",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "An industry classification of the counterparty.  Two of three letters ###."
+            }
+        },
+        "2f3d991b-0883-a1f0-c3fd-c2ee5ef5a186": {
+            "name": "counterparty_location",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Counterparty",
+                "COLUMN_NAME": "counterparty_location",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Location",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A country of incorporation for the counterparty."
+            }
+        },
+        "70f5d9d9-5dc6-8a5b-8e88-b9e0029afcc2": {
+            "name": "counterparty_latitude",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Counterparty",
+                "COLUMN_NAME": "counterparty_latitude",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Latitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A latitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "e19e8542-4de8-352b-df83-613ab090eb9c": {
+            "name": "counterparty_longitude",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Counterparty",
+                "COLUMN_NAME": "counterpart_longitude",
+                "ORDINAL_POSITION": "5",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Longitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A longitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "9454a67c-d55c-0187-e2d5-bb30bdec8a92": {
+            "name": "ST_Product",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "a487f1c9-b8da-c69e-cca1-f098d37b0220",
+                "25b59225-ea61-20e7-c71d-74f0e978d796"
+            ]
+        },
+        "a487f1c9-b8da-c69e-cca1-f098d37b0220": {
+            "name": "product",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Product",
+                "COLUMN_NAME": "product",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Name",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Conformed name of product."
+            }
+        },
+        "25b59225-ea61-20e7-c71d-74f0e978d796": {
+            "name": "prod_type",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Product",
+                "COLUMN_NAME": "prod_type",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Type",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Product classification based on company master product categories."
+            }
+        },
+        "6a2df8ef-4602-aacc-6470-7fdb13bfa936": {
+            "name": "ST_Trial_Balance",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "88ca946f-fbc4-7146-78aa-017f05875419",
+                "d2652c4f-435b-93e2-fb6a-d3111232d97e",
+                "e0d4592a-f2d5-cf23-3f86-dd263a65114b",
+                "2f07eaad-8ff1-4fb9-a478-3b4c871beddd",
+                "98b84ae5-7fe7-0180-0fa6-21e70cc4cd54",
+                "85b8b0a1-c61c-5a7f-0fa3-0f61dd9fefd0",
+                "a33cc57b-3e59-2e53-9415-b027b05c8cb8",
+                "6df6f9b6-2b91-8db0-553a-7ad84a36b30d",
+                "bf63b7bc-5fc5-fab6-96ee-6cc43f005fb9",
+                "4c90b86d-f56d-cfb4-dda1-386b3890b4cb",
+                "b458ad12-873e-34f6-33f0-336f5070cb65",
+                "7e603ab1-3d65-c149-c2b8-ff4441baedfb",
+                "91c1b31b-58b2-fc3f-e7d3-a0e98c4ae7ca",
+                "470ff5c9-10d9-6a1b-5c40-01bb4d16e403"
+            ]
+        },
+        "88ca946f-fbc4-7146-78aa-017f05875419": {
+            "name": "PnL Date",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "PnL Date",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "datetime",
+                "DATETIME_PRECISION": "3",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting."
+            }
+        },
+        "d2652c4f-435b-93e2-fb6a-d3111232d97e": {
+            "name": "Account",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "Account",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Account",
+                "DataConcept": "Account",
+                "DataElementDefinition": "Account to which the transaction is posted."
+            }
+        },
+        "e0d4592a-f2d5-cf23-3f86-dd263a65114b": {
+            "name": "Country",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "Country",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Country Of Transaction",
+                "DataConcept": "Country of operations",
+                "DataElementDefinition": "Country in which the transaction was received."
+            }
+        },
+        "2f07eaad-8ff1-4fb9-a478-3b4c871beddd": {
+            "name": "Entity",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "Entity",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Rachel",
+                "DataOwnerDepartment": "Group Finance",
+                "DataElement": "Trial Balance Entity",
+                "DataConcept": "Legal Entity",
+                "DataElementDefinition": "Entity to which the transaction is posted."
+            }
+        },
+        "98b84ae5-7fe7-0180-0fa6-21e70cc4cd54": {
+            "name": "Cost Centre",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "Cost Centre",
+                "ORDINAL_POSITION": "5",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Cost Centre",
+                "DataConcept": "Cost Centre",
+                "DataElementDefinition": "Cost centre to which the transaction is posted."
+            }
+        },
+        "85b8b0a1-c61c-5a7f-0fa3-0f61dd9fefd0": {
+            "name": "IFRS L1",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "IFRS L1",
+                "ORDINAL_POSITION": "6",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "a33cc57b-3e59-2e53-9415-b027b05c8cb8": {
+            "name": "IFRS L2",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "IFRS L2",
+                "ORDINAL_POSITION": "7",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "6df6f9b6-2b91-8db0-553a-7ad84a36b30d": {
+            "name": "IFRS L3",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "IFRS L3",
+                "ORDINAL_POSITION": "8",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "bf63b7bc-5fc5-fab6-96ee-6cc43f005fb9": {
+            "name": "IFRS L4",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "IFRS L4",
+                "ORDINAL_POSITION": "9",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 4",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "4th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "4c90b86d-f56d-cfb4-dda1-386b3890b4cb": {
+            "name": "IFRS L5",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "IFRS L5",
+                "ORDINAL_POSITION": "10",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "b458ad12-873e-34f6-33f0-336f5070cb65": {
+            "name": "IFRS L6",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "IFRS L6",
+                "ORDINAL_POSITION": "11",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "7e603ab1-3d65-c149-c2b8-ff4441baedfb": {
+            "name": "cpty_id",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "cpty_id",
+                "ORDINAL_POSITION": "12",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Id",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "Unique identifier for counterparty.  10 digit alphanumeric code ###*******."
+            }
+        },
+        "91c1b31b-58b2-fc3f-e7d3-a0e98c4ae7ca": {
+            "name": "prod_id",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "prod_id",
+                "ORDINAL_POSITION": "13",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Id",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Unique identifier for product.  10 digit alphanumeric code ###*******."
+            }
+        },
+        "470ff5c9-10d9-6a1b-5c40-01bb4d16e403": {
+            "name": "Value",
+            "properties": {
+                "TABLE_CATALOG": "_staging",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "ST_Trial_Balance",
+                "COLUMN_NAME": "Value",
+                "ORDINAL_POSITION": "14",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "John",
+                "DataOwnerDepartment": "Financial Control",
+                "DataElement": "Trial Balance Value",
+                "DataConcept": "Posting Amount",
+                "DataElementDefinition": "Value in GBP (converted on the day of posting based on closing market rate) of the transaction."
+            }
+        },
+        "1ce74dd5-0540-a308-0b09-e79bc9a483dd": {
+            "name": "Data_Warehouse",
+            "properties": {},
+            "children": [
+                "f7576b14-7453-5a28-95d6-fc2f7c3c9ed8",
+                "9da66c46-6450-567f-1663-ddbe7af8b175",
+                "0934a9bb-5d6d-0670-7a2a-823adc952080"
+            ]
+        },
+        "f7576b14-7453-5a28-95d6-fc2f7c3c9ed8": {
+            "name": "Counterparty",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "40bfa13b-0aea-59fc-c866-f826a5b86e1f",
+                "05663809-bae1-c064-6906-0714434d2ae0",
+                "c425e4bc-0466-aee7-8050-0a29b70b6b0e",
+                "afb0ef4e-12ae-6136-5d28-8eba68df1539",
+                "0483037d-9a60-6bdd-ac54-e8e1960b7bbb",
+                "4a93a469-bb6e-2201-4ac2-97f9ab8b8714"
+            ]
+        },
+        "40bfa13b-0aea-59fc-c866-f826a5b86e1f": {
+            "name": "cpty_id",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Counterparty",
+                "COLUMN_NAME": "cpty_id",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Id",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "Unique identifier for counterparty.  10 digit alphanumeric code ###*******."
+            }
+        },
+        "05663809-bae1-c064-6906-0714434d2ae0": {
+            "name": "counterparty",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Counterparty",
+                "COLUMN_NAME": "counterparty",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Name",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "The legally registered name of the counterparty entity."
+            }
+        },
+        "c425e4bc-0466-aee7-8050-0a29b70b6b0e": {
+            "name": "counterparty_type",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Counterparty",
+                "COLUMN_NAME": "counterparty_type",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Type",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "An industry classification of the counterparty.  Two of three letters ###."
+            }
+        },
+        "afb0ef4e-12ae-6136-5d28-8eba68df1539": {
+            "name": "counterparty_location",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Counterparty",
+                "COLUMN_NAME": "counterparty_location",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Location",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A country of incorporation for the counterparty."
+            }
+        },
+        "0483037d-9a60-6bdd-ac54-e8e1960b7bbb": {
+            "name": "counterparty_latitude",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Counterparty",
+                "COLUMN_NAME": "counterparty_latitude",
+                "ORDINAL_POSITION": "5",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Latitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A latitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "4a93a469-bb6e-2201-4ac2-97f9ab8b8714": {
+            "name": "counterparty_longitude",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Counterparty",
+                "COLUMN_NAME": "counterpart_longitude",
+                "ORDINAL_POSITION": "6",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Longitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A longitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "9da66c46-6450-567f-1663-ddbe7af8b175": {
+            "name": "Product",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "98de4447-d6e0-84d0-184a-852590d0f8ad",
+                "b42495a5-fe9a-3c09-11ce-39b3437128c6",
+                "456f26ef-1915-7bb5-c880-aac920650810"
+            ]
+        },
+        "98de4447-d6e0-84d0-184a-852590d0f8ad": {
+            "name": "prod_id",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Product",
+                "COLUMN_NAME": "prod_id",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Id",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Unique identifier for product.  10 digit alphanumeric code ###*******."
+            }
+        },
+        "b42495a5-fe9a-3c09-11ce-39b3437128c6": {
+            "name": "product",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Product",
+                "COLUMN_NAME": "product",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Name",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Conformed name of product."
+            }
+        },
+        "456f26ef-1915-7bb5-c880-aac920650810": {
+            "name": "prod_type",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Product",
+                "COLUMN_NAME": "prod_type",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Type",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Product classification based on company master product categories."
+            }
+        },
+        "0934a9bb-5d6d-0670-7a2a-823adc952080": {
+            "name": "Trial_Balance",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "0aadee66-8531-9dc6-2b59-7573715285f5",
+                "c5183679-699c-f2f6-ccce-9aaa3f7d7c1c",
+                "79e8622e-49d3-03c9-7fa4-682240db4c58",
+                "aad0181e-9c9b-c835-f307-cd21c15b8b11",
+                "fee6abcb-be88-f086-5927-ef93ddf47866",
+                "c5066398-39b2-62ec-5029-098408dcd494",
+                "8852a884-f18c-162e-19af-dedc5bf6843a",
+                "83d52521-9f2b-2c19-32cf-6f5ce089d2ae",
+                "0e85f768-b0df-ee2f-a3e8-f4395bdec679",
+                "5b8447e2-bd6d-cb37-badb-bdae98f7e77e",
+                "f99e1ef3-205b-56c1-b13c-dc7b91bcb1bb",
+                "4a4395da-b9e5-570c-7391-ed53986d0fea",
+                "a1ae0152-590c-a474-c250-75e55e699d73",
+                "f9cf34f9-e180-dda7-cde3-a08b82c2bab0"
+            ]
+        },
+        "0aadee66-8531-9dc6-2b59-7573715285f5": {
+            "name": "PnL Date",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "PnL Date",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "datetime",
+                "DATETIME_PRECISION": "3",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting."
+            }
+        },
+        "c5183679-699c-f2f6-ccce-9aaa3f7d7c1c": {
+            "name": "Account",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "Account",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Account",
+                "DataConcept": "Account",
+                "DataElementDefinition": "Account to which the transaction is posted."
+            }
+        },
+        "79e8622e-49d3-03c9-7fa4-682240db4c58": {
+            "name": "Country",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "Country",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Country Of Transaction",
+                "DataConcept": "Country of operations",
+                "DataElementDefinition": "Country in which the transaction was received."
+            }
+        },
+        "aad0181e-9c9b-c835-f307-cd21c15b8b11": {
+            "name": "Entity",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "Entity",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Rachel",
+                "DataOwnerDepartment": "Group Finance",
+                "DataElement": "Trial Balance Entity",
+                "DataConcept": "Legal Entity",
+                "DataElementDefinition": "Entity to which the transaction is posted."
+            }
+        },
+        "fee6abcb-be88-f086-5927-ef93ddf47866": {
+            "name": "Cost Centre",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "Cost Centre",
+                "ORDINAL_POSITION": "5",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Cost Centre",
+                "DataConcept": "Cost Centre",
+                "DataElementDefinition": "Cost centre to which the transaction is posted."
+            }
+        },
+        "c5066398-39b2-62ec-5029-098408dcd494": {
+            "name": "IFRS L1",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "IFRS L1",
+                "ORDINAL_POSITION": "6",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "8852a884-f18c-162e-19af-dedc5bf6843a": {
+            "name": "IFRS L2",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "IFRS L2",
+                "ORDINAL_POSITION": "7",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "83d52521-9f2b-2c19-32cf-6f5ce089d2ae": {
+            "name": "IFRS L3",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "IFRS L3",
+                "ORDINAL_POSITION": "8",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 3",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "3rd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "0e85f768-b0df-ee2f-a3e8-f4395bdec679": {
+            "name": "IFRS L4",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "IFRS L4",
+                "ORDINAL_POSITION": "9",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 4",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "4th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "5b8447e2-bd6d-cb37-badb-bdae98f7e77e": {
+            "name": "IFRS L5",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "IFRS L5",
+                "ORDINAL_POSITION": "10",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 5",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "5th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "f99e1ef3-205b-56c1-b13c-dc7b91bcb1bb": {
+            "name": "IFRS L7",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "IFRS L6",
+                "ORDINAL_POSITION": "11",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 6",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "6th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "4a4395da-b9e5-570c-7391-ed53986d0fea": {
+            "name": "cpty_id",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "cpty_id",
+                "ORDINAL_POSITION": "12",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Id",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "Unique identifier for counterparty.  10 digit alphanumeric code ###*******."
+            }
+        },
+        "a1ae0152-590c-a474-c250-75e55e699d73": {
+            "name": "prod_id",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "prod_id",
+                "ORDINAL_POSITION": "13",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Id",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Unique identifier for product.  10 digit alphanumeric code ###*******."
+            }
+        },
+        "f9cf34f9-e180-dda7-cde3-a08b82c2bab0": {
+            "name": "Value",
+            "properties": {
+                "TABLE_CATALOG": "_data_warehouse",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "Trial_Balance",
+                "COLUMN_NAME": "Value",
+                "ORDINAL_POSITION": "14",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "John",
+                "DataOwnerDepartment": "Financial Control",
+                "DataElement": "Trial Balance Value",
+                "DataConcept": "Posting Amount",
+                "DataElementDefinition": "Value in GBP (converted on the day of posting based on closing market rate) of the transaction."
+            }
+        },
+        "36882575-6555-94dc-bae2-44c13e08f0d1": {
+            "name": "View",
+            "properties": {},
+            "children": [
+                "c40e9bd3-36ca-332a-980b-eccf169adb25"
+            ]
+        },
+        "c40e9bd3-36ca-332a-980b-eccf169adb25": {
+            "name": "View",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "2a2415c3-b092-04f1-d18b-f3c8219b66c4",
+                "812a332c-7451-e097-9653-fac5e3704e89",
+                "a2360802-91cb-4c51-e9d3-d27fbb6e904e",
+                "3818472f-792f-b5e9-38ce-ffb281829d18",
+                "ff5a9a50-b2f4-3342-661a-04e623fdb02c",
+                "91a52dc5-d692-1611-194b-169e349ecf52",
+                "98914efa-af7c-69b8-e344-3c4d9a590999",
+                "74cd3554-a730-1aa9-326e-aaa7a8ada512",
+                "c5597d83-e0dd-de07-dc19-043d43f3e680",
+                "ecbb12e8-d63d-927b-8609-2a2296e9f1b1",
+                "caedc5fe-c50b-50de-04a7-81418c39da0f",
+                "562fb7b3-1b5a-d973-c3d5-a5813efe87ea",
+                "efa6a9df-3e85-fbf0-3a23-2666cc212771",
+                "3ade72de-be8c-7e5f-4ef8-c71031700b0e",
+                "76382506-1a57-d3e2-d25b-48624f27e383",
+                "acf17a82-09d1-9c09-f777-4013c95933c5",
+                "bf947442-28e8-e61f-6708-25813e3ba7a0",
+                "c39410e5-76df-6f9f-fc50-225e6552dcbd",
+                "1ea71969-194b-6715-f7dd-e9cab538ce36"
+            ]
+        },
+        "2a2415c3-b092-04f1-d18b-f3c8219b66c4": {
+            "name": "PnL Date",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "PnL Date",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "datetime",
+                "DATETIME_PRECISION": "3",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting."
+            }
+        },
+        "812a332c-7451-e097-9653-fac5e3704e89": {
+            "name": "Account",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "Account",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Account",
+                "DataConcept": "Account",
+                "DataElementDefinition": "Account to which the transaction is posted."
+            }
+        },
+        "a2360802-91cb-4c51-e9d3-d27fbb6e904e": {
+            "name": "Country",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "Country",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Country Of Transaction",
+                "DataConcept": "Country of operations",
+                "DataElementDefinition": "Country in which the transaction was received."
+            }
+        },
+        "3818472f-792f-b5e9-38ce-ffb281829d18": {
+            "name": "Entity",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "Entity",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Rachel",
+                "DataOwnerDepartment": "Group Finance",
+                "DataElement": "Trial Balance Entity",
+                "DataConcept": "Legal Entity",
+                "DataElementDefinition": "Entity to which the transaction is posted."
+            }
+        },
+        "ff5a9a50-b2f4-3342-661a-04e623fdb02c": {
+            "name": "Cost Centre",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "Cost Centre",
+                "ORDINAL_POSITION": "5",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Cost Centre",
+                "DataConcept": "Cost Centre",
+                "DataElementDefinition": "Cost centre to which the transaction is posted."
+            }
+        },
+        "91a52dc5-d692-1611-194b-169e349ecf52": {
+            "name": "IFRS L1",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "IFRS L1",
+                "ORDINAL_POSITION": "6",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 1",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "1st accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "98914efa-af7c-69b8-e344-3c4d9a590999": {
+            "name": "IFRS L2",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "IFRS L2",
+                "ORDINAL_POSITION": "7",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "74cd3554-a730-1aa9-326e-aaa7a8ada512": {
+            "name": "IFRS L3",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "IFRS L3",
+                "ORDINAL_POSITION": "8",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 3",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "3rd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "c5597d83-e0dd-de07-dc19-043d43f3e680": {
+            "name": "IFRS L4",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "IFRS L4",
+                "ORDINAL_POSITION": "9",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 4",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "4th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "ecbb12e8-d63d-927b-8609-2a2296e9f1b1": {
+            "name": "IFRS L5",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "IFRS L5",
+                "ORDINAL_POSITION": "10",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 5",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "5th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "caedc5fe-c50b-50de-04a7-81418c39da0f": {
+            "name": "IFRS L6",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "IFRS L6",
+                "ORDINAL_POSITION": "11",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 6",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "6th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "562fb7b3-1b5a-d973-c3d5-a5813efe87ea": {
+            "name": "Value",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "Value",
+                "ORDINAL_POSITION": "12",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "John",
+                "DataOwnerDepartment": "Financial Control",
+                "DataElement": "Trial Balance Value",
+                "DataConcept": "Posting Amount",
+                "DataElementDefinition": "Value in GBP (converted on the day of posting based on closing market rate) of the transaction."
+            }
+        },
+        "efa6a9df-3e85-fbf0-3a23-2666cc212771": {
+            "name": "counterparty",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "counterparty",
+                "ORDINAL_POSITION": "13",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Name",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "The legally registered name of the counterparty entity."
+            }
+        },
+        "3ade72de-be8c-7e5f-4ef8-c71031700b0e": {
+            "name": "counterparty_type",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "counterparty_type",
+                "ORDINAL_POSITION": "14",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Type",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "An industry classification of the counterparty.  Two of three letters ###."
+            }
+        },
+        "76382506-1a57-d3e2-d25b-48624f27e383": {
+            "name": "counterparty_location",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "counterparty_location",
+                "ORDINAL_POSITION": "15",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Location",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A country of incorporation for the counterparty."
+            }
+        },
+        "acf17a82-09d1-9c09-f777-4013c95933c5": {
+            "name": "counterparty_latitude",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "counterparty_latitude",
+                "ORDINAL_POSITION": "16",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Latitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A latitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "bf947442-28e8-e61f-6708-25813e3ba7a0": {
+            "name": "counterparty_longitude",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "counterpart_longitude",
+                "ORDINAL_POSITION": "17",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Longitude",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "A longitude coordinate for the legal registered head office of the counterparty."
+            }
+        },
+        "c39410e5-76df-6f9f-fc50-225e6552dcbd": {
+            "name": "product",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "product",
+                "ORDINAL_POSITION": "18",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Name",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Conformed name of product."
+            }
+        },
+        "1ea71969-194b-6715-f7dd-e9cab538ce36": {
+            "name": "prod_type",
+            "properties": {
+                "TABLE_CATALOG": "_view",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "View",
+                "COLUMN_NAME": "prod_type",
+                "ORDINAL_POSITION": "19",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Type",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Product classification based on company master product categories."
+            }
+        },
+        "1dc21deb-83be-fa5a-23c7-3acb2fd645ff": {
+            "name": "Reports",
+            "properties": {},
+            "children": [
+                "ef9f2064-e45a-95f4-1371-353dfc6e3140",
+                "3bbad5cd-5987-6ffc-3984-a884301ef8ce",
+                "e195fdba-18bf-f379-5a7b-3601ea7326a4"
+            ]
+        },
+        "ef9f2064-e45a-95f4-1371-353dfc6e3140": {
+            "name": "Report_1",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "c06b36da-329f-55c2-02b6-2bf821cd72a4",
+                "15576314-2249-0344-a420-74784f3ada8a",
+                "5a762c51-6fd6-2b55-b2c6-facc45af22d8",
+                "9b4604ec-6150-bbb4-c594-ea61c274892c",
+                "bf78480a-a612-a223-d1c5-65b4fbc449df",
+                "b756b97d-ebb5-a4de-7fa3-48af302466fb",
+                "0a1e0875-8154-326e-0779-9fd0673b1098",
+                "966146a5-cb5f-1a1d-6619-8b5e8d7ea753",
+                "01733a20-b767-85ae-6111-52ae2f0c351e"
+            ]
+        },
+        "c06b36da-329f-55c2-02b6-2bf821cd72a4": {
+            "name": "PnL Date",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "PnL Date",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "datetime",
+                "DATETIME_PRECISION": "3",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting."
+            }
+        },
+        "15576314-2249-0344-a420-74784f3ada8a": {
+            "name": "Account",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "Account",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Trial Balance Account",
+                "DataConcept": "Account",
+                "DataElementDefinition": "Account to which the transaction is posted."
+            }
+        },
+        "5a762c51-6fd6-2b55-b2c6-facc45af22d8": {
+            "name": "Country",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "Country",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Country Of Transaction",
+                "DataConcept": "Country of operations",
+                "DataElementDefinition": "Country in which the transaction was received."
+            }
+        },
+        "9b4604ec-6150-bbb4-c594-ea61c274892c": {
+            "name": "Entity",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "Entity",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Rachel",
+                "DataOwnerDepartment": "Group Finance",
+                "DataElement": "Trial Balance Entity",
+                "DataConcept": "Legal Entity",
+                "DataElementDefinition": "Entity to which the transaction is posted."
+            }
+        },
+        "bf78480a-a612-a223-d1c5-65b4fbc449df": {
+            "name": "IFRS L2",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "IFRS L2",
+                "ORDINAL_POSITION": "5",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "b756b97d-ebb5-a4de-7fa3-48af302466fb": {
+            "name": "IFRS L4",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "IFRS L4",
+                "ORDINAL_POSITION": "6",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 4",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "4th accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "0a1e0875-8154-326e-0779-9fd0673b1098": {
+            "name": "Value",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "Value",
+                "ORDINAL_POSITION": "7",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "float",
+                "NUMERIC_PRECISION": "53",
+                "NUMERIC_PRECISION_RADIX": "2",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "John",
+                "DataOwnerDepartment": "Financial Control",
+                "DataElement": "Trial Balance Value",
+                "DataConcept": "Posting Amount",
+                "DataElementDefinition": "Value in GBP (converted on the day of posting based on closing market rate) of the transaction."
+            }
+        },
+        "966146a5-cb5f-1a1d-6619-8b5e8d7ea753": {
+            "name": "counterparty_type",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_1'",
+                "COLUMN_NAME": "counterparty_type",
+                "ORDINAL_POSITION": "8",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Type",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "An industry classification of the counterparty.  Two of three letters ###."
+            }
+        },
+        "01733a20-b767-85ae-6111-52ae2f0c351e": {
+            "name": "IFRS L1",
+            "properties": {}
+        },
+        "3bbad5cd-5987-6ffc-3984-a884301ef8ce": {
+            "name": "Report_2",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "e8512c50-ba6b-5427-768b-0ae39864a228",
+                "4a8e40b7-dfa2-5fca-1323-487f36ad70c0",
+                "09fbe0ee-9757-6d9f-0f17-18ef26406285",
+                "336bab71-3b48-276f-7a31-89f3ca1b9e93"
+            ]
+        },
+        "e8512c50-ba6b-5427-768b-0ae39864a228": {
+            "name": "PnL Date",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "PnL Date",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "datetime",
+                "DATETIME_PRECISION": "3",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting."
+            }
+        },
+        "4a8e40b7-dfa2-5fca-1323-487f36ad70c0": {
+            "name": "IFRS L2",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "IFRS L2",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting."
+            }
+        },
+        "09fbe0ee-9757-6d9f-0f17-18ef26406285": {
+            "name": "counterparty_type",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "counterparty_type",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Type",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "An industry classification of the counterparty.  Two of three letters ###."
+            }
+        },
+        "336bab71-3b48-276f-7a31-89f3ca1b9e93": {
+            "name": "prod_type",
+            "properties": {
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "prod_type",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False",
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Type",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Product classification based on company master product categories."
+            }
+        },
+        "e195fdba-18bf-f379-5a7b-3601ea7326a4": {
+            "name": "Report_3",
+            "properties": {
+                "OBJECT_TYPE": "sql-server"
+            },
+            "children": [
+                "75502583-a3dd-eda7-afed-42b8efbe07bb",
+                "ed66403b-b544-dfb2-6c63-3c4d02f046f4",
+                "f5cdede9-de4f-01ec-f42e-d881ed4ab8af",
+                "ecbb4128-2a24-8d05-f055-9361d85d2809",
+                "c7fd5ce8-270a-5313-5ec2-c9f9b14e481f"
+            ]
+        },
+        "75502583-a3dd-eda7-afed-42b8efbe07bb": {
+            "name": "PnL Date",
+            "properties": {
+                "DataOwner": "Peter",
+                "DataOwnerDepartment": "Financial Reporting",
+                "DataElement": "Posting Date",
+                "DataConcept": "Date / Time",
+                "DataElementDefinition": "Date time of transaction posting.",
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "PnL Date",
+                "ORDINAL_POSITION": "1",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "datetime",
+                "DATETIME_PRECISION": "3",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False"
+            }
+        },
+        "ed66403b-b544-dfb2-6c63-3c4d02f046f4": {
+            "name": "IFRS L5",
+            "properties": {
+                "DataOwner": "Richard",
+                "DataOwnerDepartment": "Regulatory compliance",
+                "DataElement": "Ifrs Level 2",
+                "DataConcept": "IFRS Reporting Hierarchy",
+                "DataElementDefinition": "2nd accounting classification level of transaction for IFRS reporting.",
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "IFRS L2",
+                "ORDINAL_POSITION": "2",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False"
+            }
+        },
+        "f5cdede9-de4f-01ec-f42e-d881ed4ab8af": {
+            "name": "counterparty_type",
+            "properties": {
+                "DataOwner": "Andrew",
+                "DataOwnerDepartment": "Risk",
+                "DataElement": "Counterparty Type",
+                "DataConcept": "Counterparty",
+                "DataElementDefinition": "An industry classification of the counterparty.  Two of three letters ###.",
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "counterparty_type",
+                "ORDINAL_POSITION": "3",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False"
+            }
+        },
+        "ecbb4128-2a24-8d05-f055-9361d85d2809": {
+            "name": "counterparty",
+            "properties": {}
+        },
+        "c7fd5ce8-270a-5313-5ec2-c9f9b14e481f": {
+            "name": "prod_type",
+            "properties": {
+                "DataOwner": "Ian",
+                "DataOwnerDepartment": "Product control",
+                "DataElement": "Product Type",
+                "DataConcept": "Product",
+                "DataElementDefinition": "Product classification based on company master product categories.",
+                "TABLE_CATALOG": "_reports",
+                "TABLE_SCHEMA": "dbo",
+                "TABLE_NAME": "'Report_2'",
+                "COLUMN_NAME": "prod_type",
+                "ORDINAL_POSITION": "4",
+                "IS_NULLABLE": "YES",
+                "DATA_TYPE": "nvarchar",
+                "CHARACTER_MAXIMUM_LENGTH": "255",
+                "CHARACTER_OCTET_LENGTH": "510",
+                "CHARACTER_SET_NAME": "UNICODE",
+                "IS_SPARSE": "False",
+                "IS_COLUMN_SET": "False",
+                "IS_FILESTREAM": "False"
+            }
+        }
+    },
+    "transitions": {
+        "ee7067c4-e42e-d386-f489-7016ecd4626a": {
+            "source": "cdeba9dd-1b88-9aeb-6c6c-2b7b3b2c42aa",
+            "target": "4ebb5336-a4e9-418a-b62f-167728ef5d58",
+            "properties": {}
+        },
+        "b7a1f8ee-116d-4769-b060-d9762afe194d": {
+            "source": "7420caa7-c4a2-c03d-86f9-340524b5f472",
+            "target": "2f3d991b-0883-a1f0-c3fd-c2ee5ef5a186",
+            "properties": {}
+        },
+        "339f1faa-3f07-2098-aa81-3a07ceb539b0": {
+            "source": "86415125-5f38-eaca-2482-d9d8b8f974b5",
+            "target": "70f5d9d9-5dc6-8a5b-8e88-b9e0029afcc2",
+            "properties": {}
+        },
+        "a7df10d3-2f14-b79d-3b12-8f9f06b13852": {
+            "source": "11109d18-e9f9-6296-65de-fe22d36d481c",
+            "target": "e19e8542-4de8-352b-df83-613ab090eb9c",
+            "properties": {}
+        },
+        "b0fd6b5a-84c1-cd6a-c6a5-8edbca02ba2e": {
+            "source": "ff243802-73cd-e79c-2057-31ddbe27c198",
+            "target": "a487f1c9-b8da-c69e-cca1-f098d37b0220",
+            "properties": {}
+        },
+        "d42cc0e1-7693-ccf6-22c3-cf2c15d07d63": {
+            "source": "ae0ca367-8f15-a440-cc9f-90e475363961",
+            "target": "25b59225-ea61-20e7-c71d-74f0e978d796",
+            "properties": {}
+        },
+        "ae43ef61-daf3-8636-32f9-327500663904": {
+            "source": "cb872e41-5429-d1f3-1f76-65a16f3ecb71",
+            "target": "88ca946f-fbc4-7146-78aa-017f05875419",
+            "properties": {}
+        },
+        "edebdf21-2558-c730-a317-3971c30bc7b1": {
+            "source": "3cab810e-740c-b802-5421-4bbb4d726453",
+            "target": "d2652c4f-435b-93e2-fb6a-d3111232d97e",
+            "properties": {}
+        },
+        "5edc9411-2406-2bb2-5aae-80b1f05d7667": {
+            "source": "246d3de6-0840-0396-1660-0f9b6e0d637e",
+            "target": "e0d4592a-f2d5-cf23-3f86-dd263a65114b",
+            "properties": {}
+        },
+        "4fb23737-ef3b-ba8a-fa97-63446a07878a": {
+            "source": "af6c1bd4-1414-7ca9-2311-61f54b77cc89",
+            "target": "2f07eaad-8ff1-4fb9-a478-3b4c871beddd",
+            "properties": {}
+        },
+        "129be9db-7e1f-763c-1c08-63e73bfb8eb0": {
+            "source": "db05afe6-8fc6-43c4-38c9-83c72ee7343f",
+            "target": "98b84ae5-7fe7-0180-0fa6-21e70cc4cd54",
+            "properties": {}
+        },
+        "9e8e5e37-dd09-9734-4813-6edbac9af5ac": {
+            "source": "5854ac39-8a01-3f3a-eb88-211ece27dde0",
+            "target": "85b8b0a1-c61c-5a7f-0fa3-0f61dd9fefd0",
+            "properties": {}
+        },
+        "5df49d9d-2e69-4545-9c7d-ede96ab9ea9e": {
+            "source": "60d8fa0d-0215-be88-b505-6d94f6eba849",
+            "target": "a33cc57b-3e59-2e53-9415-b027b05c8cb8",
+            "properties": {}
+        },
+        "e41d929e-224f-b8d7-5983-7db69a59fd54": {
+            "source": "61bdda9b-9afa-a054-a678-cb804001fdff",
+            "target": "6df6f9b6-2b91-8db0-553a-7ad84a36b30d",
+            "properties": {}
+        },
+        "1253dac9-4601-0fd4-2019-629a171ddb3e": {
+            "source": "230ec2dc-e834-d83a-76b6-5ba9421cbe0d",
+            "target": "bf63b7bc-5fc5-fab6-96ee-6cc43f005fb9",
+            "properties": {}
+        },
+        "871e06dc-4b51-be63-3a2e-06eb3c4a6d04": {
+            "source": "ffc28608-f44b-05a5-8cbe-efd9cc49e239",
+            "target": "4c90b86d-f56d-cfb4-dda1-386b3890b4cb",
+            "properties": {}
+        },
+        "9df9483d-11df-6b1a-4003-429e8a860ff5": {
+            "source": "39d7e256-fe2d-6c68-7492-e38afbdbe59c",
+            "target": "b458ad12-873e-34f6-33f0-336f5070cb65",
+            "properties": {}
+        },
+        "9dd68aa7-e08d-118d-f972-a200c3353e0b": {
+            "source": "697a5bef-d6b3-06b6-0470-c41139a0ffee",
+            "target": "7e603ab1-3d65-c149-c2b8-ff4441baedfb",
+            "properties": {}
+        },
+        "7748feb2-6fcf-ea16-3fe5-e68b783e96c6": {
+            "source": "437a4837-321c-7433-f42a-7265edfe1546",
+            "target": "91c1b31b-58b2-fc3f-e7d3-a0e98c4ae7ca",
+            "properties": {}
+        },
+        "bc5b4986-867c-a3d4-3b7a-353af81db3e7": {
+            "source": "476683fd-04c4-c03c-d531-f4d41635e60e",
+            "target": "470ff5c9-10d9-6a1b-5c40-01bb4d16e403",
+            "properties": {}
+        },
+        "afc11e07-3509-ba48-50fb-c0766820beca": {
+            "source": "e69d5c9b-44c1-0c6e-6827-c6805f423be2",
+            "target": "88ca946f-fbc4-7146-78aa-017f05875419",
+            "properties": {}
+        },
+        "f67ab16d-ac0b-7676-4ac5-c4a66673bc6f": {
+            "source": "2a86a071-8863-03d0-929e-768e1779fa11",
+            "target": "d2652c4f-435b-93e2-fb6a-d3111232d97e",
+            "properties": {}
+        },
+        "d5309ef7-de88-199c-7625-4794757e88b7": {
+            "source": "4b6a4306-16d2-b3f9-290e-b8144ff32227",
+            "target": "e0d4592a-f2d5-cf23-3f86-dd263a65114b",
+            "properties": {}
+        },
+        "98b34c03-0ac7-2df9-e757-c543fd518cde": {
+            "source": "4de118ae-48d5-dbde-d5e0-ee4e4cbbd2f5",
+            "target": "2f07eaad-8ff1-4fb9-a478-3b4c871beddd",
+            "properties": {}
+        },
+        "02b9bed6-57e0-441c-3a38-cf1b3589d262": {
+            "source": "64be86a5-ff63-7b8b-e2a8-230b5c3b9eba",
+            "target": "98b84ae5-7fe7-0180-0fa6-21e70cc4cd54",
+            "properties": {}
+        },
+        "6da0d5b0-4f58-9911-42c3-118f62742dd7": {
+            "source": "b4fdee49-4e7d-3a96-2146-7143ad81dbc2",
+            "target": "85b8b0a1-c61c-5a7f-0fa3-0f61dd9fefd0",
+            "properties": {}
+        },
+        "a06890a8-3922-929c-2cb4-e31df57292b4": {
+            "source": "349e2083-e50f-8d52-1fac-d5b3bc7e22bb",
+            "target": "a33cc57b-3e59-2e53-9415-b027b05c8cb8",
+            "properties": {}
+        },
+        "103df94b-3b44-65e0-92a8-a505c4b6946c": {
+            "source": "5219cf1a-53b3-8a76-94d5-c63944a73a26",
+            "target": "6df6f9b6-2b91-8db0-553a-7ad84a36b30d",
+            "properties": {}
+        },
+        "ac9cd8ef-3344-4b88-ea0f-ca79107a334c": {
+            "source": "6bffb475-13a1-ba82-9de1-43b3ee51a91f",
+            "target": "bf63b7bc-5fc5-fab6-96ee-6cc43f005fb9",
+            "properties": {}
+        },
+        "cdcb7c77-60b3-6a24-9d28-4b9c9cfc4c52": {
+            "source": "730e4bb9-5a81-0022-a08b-686247954456",
+            "target": "4c90b86d-f56d-cfb4-dda1-386b3890b4cb",
+            "properties": {}
+        },
+        "0879607f-daa5-eaa2-8657-2a356aa77c76": {
+            "source": "1eb1db08-cc7c-7852-8bf0-57970284ca81",
+            "target": "b458ad12-873e-34f6-33f0-336f5070cb65",
+            "properties": {}
+        },
+        "eb4e5410-0947-76ce-f44d-c7ff1ec3e568": {
+            "source": "31e620b9-4b5e-f36f-4024-a4b7c020df07",
+            "target": "7e603ab1-3d65-c149-c2b8-ff4441baedfb",
+            "properties": {}
+        },
+        "90190a64-a3b8-970f-4423-6d90150492c2": {
+            "source": "136fad4f-e06d-65ac-cdf5-b7006adf9333",
+            "target": "91c1b31b-58b2-fc3f-e7d3-a0e98c4ae7ca",
+            "properties": {}
+        },
+        "8bfac433-564b-c626-70b8-c6d33a62de08": {
+            "source": "1a4cc8df-7bca-7faf-b8b7-d9e9c1dc3324",
+            "target": "470ff5c9-10d9-6a1b-5c40-01bb4d16e403",
+            "properties": {}
+        },
+        "c9600082-24e5-ec04-2c9c-281e0dd0b778": {
+            "source": "4ebb5336-a4e9-418a-b62f-167728ef5d58",
+            "target": "05663809-bae1-c064-6906-0714434d2ae0",
+            "properties": {}
+        },
+        "e64476ba-c860-a2d7-dbd3-98418ad6fc1b": {
+            "source": "3bc3fee8-ba12-e261-9eb6-5bc0bcea9948",
+            "target": "c425e4bc-0466-aee7-8050-0a29b70b6b0e",
+            "properties": {}
+        },
+        "90158aa4-ee21-8117-fd7a-92f1f96e4a9e": {
+            "source": "2f3d991b-0883-a1f0-c3fd-c2ee5ef5a186",
+            "target": "afb0ef4e-12ae-6136-5d28-8eba68df1539",
+            "properties": {}
+        },
+        "65fe4c88-cb6e-5f30-bc4d-5a332a4fc462": {
+            "source": "70f5d9d9-5dc6-8a5b-8e88-b9e0029afcc2",
+            "target": "0483037d-9a60-6bdd-ac54-e8e1960b7bbb",
+            "properties": {}
+        },
+        "1160a1da-9588-f259-e47b-7b056855ca68": {
+            "source": "e19e8542-4de8-352b-df83-613ab090eb9c",
+            "target": "4a93a469-bb6e-2201-4ac2-97f9ab8b8714",
+            "properties": {}
+        },
+        "406b7709-9822-d6d2-9e85-6b1a21d0f84f": {
+            "source": "a487f1c9-b8da-c69e-cca1-f098d37b0220",
+            "target": "b42495a5-fe9a-3c09-11ce-39b3437128c6",
+            "properties": {}
+        },
+        "765e93c8-2881-39da-b2c2-997f963b3e8f": {
+            "source": "25b59225-ea61-20e7-c71d-74f0e978d796",
+            "target": "456f26ef-1915-7bb5-c880-aac920650810",
+            "properties": {}
+        },
+        "5a6ffe68-75b2-9af0-6f52-01b4d88e712f": {
+            "source": "88ca946f-fbc4-7146-78aa-017f05875419",
+            "target": "0aadee66-8531-9dc6-2b59-7573715285f5",
+            "properties": {}
+        },
+        "c0e21147-71f1-769f-05c8-28f85e7d48c6": {
+            "source": "d2652c4f-435b-93e2-fb6a-d3111232d97e",
+            "target": "c5183679-699c-f2f6-ccce-9aaa3f7d7c1c",
+            "properties": {}
+        },
+        "bdc12023-ea67-b458-e4a1-a487577a0517": {
+            "source": "e0d4592a-f2d5-cf23-3f86-dd263a65114b",
+            "target": "79e8622e-49d3-03c9-7fa4-682240db4c58",
+            "properties": {}
+        },
+        "4e8c8259-6604-2a2d-c91c-0e44d7f15ef2": {
+            "source": "2f07eaad-8ff1-4fb9-a478-3b4c871beddd",
+            "target": "aad0181e-9c9b-c835-f307-cd21c15b8b11",
+            "properties": {}
+        },
+        "166fbbdc-74f9-0f72-2ea9-b72e9a4f824b": {
+            "source": "98b84ae5-7fe7-0180-0fa6-21e70cc4cd54",
+            "target": "fee6abcb-be88-f086-5927-ef93ddf47866",
+            "properties": {}
+        },
+        "5d3c14ac-32ee-dac9-7933-b90a9d999114": {
+            "source": "85b8b0a1-c61c-5a7f-0fa3-0f61dd9fefd0",
+            "target": "c5066398-39b2-62ec-5029-098408dcd494",
+            "properties": {}
+        },
+        "bb169fa4-d56c-bb48-b520-890dc2786aa6": {
+            "source": "a33cc57b-3e59-2e53-9415-b027b05c8cb8",
+            "target": "8852a884-f18c-162e-19af-dedc5bf6843a",
+            "properties": {}
+        },
+        "f77c161f-6cdc-b234-0bd6-b85af471c968": {
+            "source": "6df6f9b6-2b91-8db0-553a-7ad84a36b30d",
+            "target": "83d52521-9f2b-2c19-32cf-6f5ce089d2ae",
+            "properties": {}
+        },
+        "8adaa090-adc9-9ea9-5712-7ad0b498114c": {
+            "source": "bf63b7bc-5fc5-fab6-96ee-6cc43f005fb9",
+            "target": "0e85f768-b0df-ee2f-a3e8-f4395bdec679",
+            "properties": {}
+        },
+        "22692fdb-82e6-08e9-b6f6-546f169c20b0": {
+            "source": "4c90b86d-f56d-cfb4-dda1-386b3890b4cb",
+            "target": "5b8447e2-bd6d-cb37-badb-bdae98f7e77e",
+            "properties": {}
+        },
+        "9a679840-4df1-a24e-e815-94f474d948ad": {
+            "source": "b458ad12-873e-34f6-33f0-336f5070cb65",
+            "target": "f99e1ef3-205b-56c1-b13c-dc7b91bcb1bb",
+            "properties": {}
+        },
+        "e722bd81-0582-0091-5f02-824ac1ae0a36": {
+            "source": "7e603ab1-3d65-c149-c2b8-ff4441baedfb",
+            "target": "4a4395da-b9e5-570c-7391-ed53986d0fea",
+            "properties": {}
+        },
+        "bc938057-074b-aee6-12f3-001dd5f4c237": {
+            "source": "91c1b31b-58b2-fc3f-e7d3-a0e98c4ae7ca",
+            "target": "a1ae0152-590c-a474-c250-75e55e699d73",
+            "properties": {}
+        },
+        "aa5033d2-54f2-0c9b-309c-ac398ea4a143": {
+            "source": "470ff5c9-10d9-6a1b-5c40-01bb4d16e403",
+            "target": "f9cf34f9-e180-dda7-cde3-a08b82c2bab0",
+            "properties": {}
+        },
+        "087bd9ca-b68d-37df-401e-394425d49d3b": {
+            "source": "05663809-bae1-c064-6906-0714434d2ae0",
+            "target": "efa6a9df-3e85-fbf0-3a23-2666cc212771",
+            "properties": {}
+        },
+        "d0ba1888-01fe-4a6c-9c8b-ef163faf9ed5": {
+            "source": "c425e4bc-0466-aee7-8050-0a29b70b6b0e",
+            "target": "3ade72de-be8c-7e5f-4ef8-c71031700b0e",
+            "properties": {}
+        },
+        "a85e7a50-532e-da70-2989-f59b362dcfca": {
+            "source": "afb0ef4e-12ae-6136-5d28-8eba68df1539",
+            "target": "76382506-1a57-d3e2-d25b-48624f27e383",
+            "properties": {}
+        },
+        "cbf8351a-0d9c-f7e8-95ce-50586c8cd6c3": {
+            "source": "0483037d-9a60-6bdd-ac54-e8e1960b7bbb",
+            "target": "acf17a82-09d1-9c09-f777-4013c95933c5",
+            "properties": {}
+        },
+        "c12182b4-4650-8d6e-155e-dea661616bb5": {
+            "source": "4a93a469-bb6e-2201-4ac2-97f9ab8b8714",
+            "target": "bf947442-28e8-e61f-6708-25813e3ba7a0",
+            "properties": {}
+        },
+        "3336a327-c3c0-867c-b328-fbf636ca169d": {
+            "source": "b42495a5-fe9a-3c09-11ce-39b3437128c6",
+            "target": "c39410e5-76df-6f9f-fc50-225e6552dcbd",
+            "properties": {}
+        },
+        "08d5a542-a09d-df0a-2dae-9e5fe1308355": {
+            "source": "456f26ef-1915-7bb5-c880-aac920650810",
+            "target": "1ea71969-194b-6715-f7dd-e9cab538ce36",
+            "properties": {}
+        },
+        "60d6ba7b-a9ad-c6c5-46da-c36c8a2074e1": {
+            "source": "0aadee66-8531-9dc6-2b59-7573715285f5",
+            "target": "2a2415c3-b092-04f1-d18b-f3c8219b66c4",
+            "properties": {}
+        },
+        "81d12eb1-60f8-7071-4bce-f1b5b948dc37": {
+            "source": "c5183679-699c-f2f6-ccce-9aaa3f7d7c1c",
+            "target": "812a332c-7451-e097-9653-fac5e3704e89",
+            "properties": {}
+        },
+        "66e169f7-f8f0-78e2-1f99-ebccd8b9ec0a": {
+            "source": "79e8622e-49d3-03c9-7fa4-682240db4c58",
+            "target": "a2360802-91cb-4c51-e9d3-d27fbb6e904e",
+            "properties": {}
+        },
+        "8fd19fa2-1527-ec6d-5428-c66784a0d950": {
+            "source": "aad0181e-9c9b-c835-f307-cd21c15b8b11",
+            "target": "3818472f-792f-b5e9-38ce-ffb281829d18",
+            "properties": {}
+        },
+        "925672ed-1c1b-ae73-67a9-ffc6cdc043bf": {
+            "source": "fee6abcb-be88-f086-5927-ef93ddf47866",
+            "target": "ff5a9a50-b2f4-3342-661a-04e623fdb02c",
+            "properties": {}
+        },
+        "2142b849-2865-5f18-95fd-f32025d3d664": {
+            "source": "c5066398-39b2-62ec-5029-098408dcd494",
+            "target": "91a52dc5-d692-1611-194b-169e349ecf52",
+            "properties": {}
+        },
+        "4b95debc-1f83-5935-067b-27314e9492a0": {
+            "source": "8852a884-f18c-162e-19af-dedc5bf6843a",
+            "target": "98914efa-af7c-69b8-e344-3c4d9a590999",
+            "properties": {}
+        },
+        "f427270d-597b-fac3-407f-7a2caa06e2b2": {
+            "source": "83d52521-9f2b-2c19-32cf-6f5ce089d2ae",
+            "target": "74cd3554-a730-1aa9-326e-aaa7a8ada512",
+            "properties": {}
+        },
+        "c3b37fee-3041-2d56-2f40-c3fa674ecc44": {
+            "source": "0e85f768-b0df-ee2f-a3e8-f4395bdec679",
+            "target": "c5597d83-e0dd-de07-dc19-043d43f3e680",
+            "properties": {}
+        },
+        "302f9f52-7259-eade-5153-9bfa178cac51": {
+            "source": "5b8447e2-bd6d-cb37-badb-bdae98f7e77e",
+            "target": "ecbb12e8-d63d-927b-8609-2a2296e9f1b1",
+            "properties": {}
+        },
+        "fa894dbd-1377-038b-bbd5-1d3cd6db0e81": {
+            "source": "f99e1ef3-205b-56c1-b13c-dc7b91bcb1bb",
+            "target": "caedc5fe-c50b-50de-04a7-81418c39da0f",
+            "properties": {}
+        },
+        "28c991f4-4178-e370-57a9-f9eb518c620b": {
+            "source": "f9cf34f9-e180-dda7-cde3-a08b82c2bab0",
+            "target": "562fb7b3-1b5a-d973-c3d5-a5813efe87ea",
+            "properties": {}
+        },
+        "c3e9f536-b85b-14bd-c7c5-f4b8f0cf4b81": {
+            "source": "2a2415c3-b092-04f1-d18b-f3c8219b66c4",
+            "target": "c06b36da-329f-55c2-02b6-2bf821cd72a4",
+            "properties": {}
+        },
+        "037efa51-1cde-9000-da34-ce8ddefce3fc": {
+            "source": "2a2415c3-b092-04f1-d18b-f3c8219b66c4",
+            "target": "e8512c50-ba6b-5427-768b-0ae39864a228",
+            "properties": {}
+        },
+        "c42639ef-2c5f-fe2e-8ff9-ef9c2439c316": {
+            "source": "2a2415c3-b092-04f1-d18b-f3c8219b66c4",
+            "target": "75502583-a3dd-eda7-afed-42b8efbe07bb",
+            "properties": {}
+        },
+        "91651ee7-c2ee-b8b4-4fec-f803dcb99de9": {
+            "source": "812a332c-7451-e097-9653-fac5e3704e89",
+            "target": "15576314-2249-0344-a420-74784f3ada8a",
+            "properties": {}
+        },
+        "79be343b-1506-e940-67f6-61eb368bbc04": {
+            "source": "a2360802-91cb-4c51-e9d3-d27fbb6e904e",
+            "target": "5a762c51-6fd6-2b55-b2c6-facc45af22d8",
+            "properties": {}
+        },
+        "99f50c2c-adf9-0840-050f-95e44b6e38dd": {
+            "source": "3818472f-792f-b5e9-38ce-ffb281829d18",
+            "target": "9b4604ec-6150-bbb4-c594-ea61c274892c",
+            "properties": {}
+        },
+        "18a44597-d327-f38d-1867-456a7f8fdfd5": {
+            "source": "91a52dc5-d692-1611-194b-169e349ecf52",
+            "target": "bf78480a-a612-a223-d1c5-65b4fbc449df",
+            "properties": {}
+        },
+        "ab802c66-c7b3-68c9-ef69-e6878cd7a29a": {
+            "source": "91a52dc5-d692-1611-194b-169e349ecf52",
+            "target": "4a8e40b7-dfa2-5fca-1323-487f36ad70c0",
+            "properties": {}
+        },
+        "b978e9bf-24a0-cd06-38b7-e1fddceaaa3a": {
+            "source": "91a52dc5-d692-1611-194b-169e349ecf52",
+            "target": "01733a20-b767-85ae-6111-52ae2f0c351e",
+            "properties": {}
+        },
+        "06d196d2-757b-051a-9a45-3ede833e52bc": {
+            "source": "c5597d83-e0dd-de07-dc19-043d43f3e680",
+            "target": "b756b97d-ebb5-a4de-7fa3-48af302466fb",
+            "properties": {}
+        },
+        "d33b3cf8-2194-b4f5-bfb2-d5190ed9361d": {
+            "source": "ecbb12e8-d63d-927b-8609-2a2296e9f1b1",
+            "target": "ed66403b-b544-dfb2-6c63-3c4d02f046f4",
+            "properties": {}
+        },
+        "267f1ab1-46cb-f995-43a1-fa57cbf5ce61": {
+            "source": "562fb7b3-1b5a-d973-c3d5-a5813efe87ea",
+            "target": "0a1e0875-8154-326e-0779-9fd0673b1098",
+            "properties": {}
+        },
+        "548bf597-c349-c66b-294c-8ab79e659461": {
+            "source": "efa6a9df-3e85-fbf0-3a23-2666cc212771",
+            "target": "ecbb4128-2a24-8d05-f055-9361d85d2809",
+            "properties": {}
+        },
+        "c41d1e2d-f4fe-1931-de2e-756952923d82": {
+            "source": "3ade72de-be8c-7e5f-4ef8-c71031700b0e",
+            "target": "966146a5-cb5f-1a1d-6619-8b5e8d7ea753",
+            "properties": {}
+        },
+        "8dc6d1cb-5699-8267-7c96-3e7ed69677b3": {
+            "source": "3ade72de-be8c-7e5f-4ef8-c71031700b0e",
+            "target": "09fbe0ee-9757-6d9f-0f17-18ef26406285",
+            "properties": {}
+        },
+        "2cf6cda8-0ecc-162f-908f-bd6e60301352": {
+            "source": "3ade72de-be8c-7e5f-4ef8-c71031700b0e",
+            "target": "f5cdede9-de4f-01ec-f42e-d881ed4ab8af",
+            "properties": {}
+        },
+        "66efeb84-cae4-2346-16b2-81e4fc7807fe": {
+            "source": "1ea71969-194b-6715-f7dd-e9cab538ce36",
+            "target": "336bab71-3b48-276f-7a31-89f3ca1b9e93",
+            "properties": {}
+        },
+        "d968fba0-fe8d-c244-4141-ba451b949a2e": {
+            "source": "1ea71969-194b-6715-f7dd-e9cab538ce36",
+            "target": "c7fd5ce8-270a-5313-5ec2-c9f9b14e481f",
+            "properties": {}
+        }
+    },
+    "roots": [
+        "df7f73eb-305d-c7b0-cd83-9a53de7dde8e",
+        "eea56a3d-9f41-435f-972d-b69fd8091ac0",
+        "1ce74dd5-0540-a308-0b09-e79bc9a483dd",
+        "36882575-6555-94dc-bae2-44c13e08f0d1",
+        "1dc21deb-83be-fa5a-23c7-3acb2fd645ff"
+    ]
+}

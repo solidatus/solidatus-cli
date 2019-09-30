@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/index.js",
+      "args": [
+        "update",
+        "ReplaceEntity",
+        "--model",
+        "5d81fb9e1dd9340001c0a6b4",
+        "--entity",
+        "b68444c0-9a6e-467b-baa7-65b7dc4b59c7",
+        "--input",
+        "json/entity1.json",
+        "--comparator",
+        "path",
+        "--host",
+        "https://demo.solidatus.com",
+        "--token",
+        "qwertyuiop"
+      ]
+    }
+  ]
+}

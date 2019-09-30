@@ -1,0 +1,49 @@
+{
+  "name": "Counterparty",
+  "numChildren": 3,
+  "children": [
+    {
+      "name": "counterparty",
+      "numChildren": 0,
+      "children": null,
+      "id": "f63b3b99-9bec-408f-b7a2-1036fa08ccd6",
+      "properties": {
+        "DataOwner": "Andrew",
+        "DataOwnerDepartment": "Risk",
+        "DataElement": "Counterparty Name",
+        "DataConcept": "Counterparty",
+        "DataElementDefinition": "The legally registered name of the counterparty entity."
+      }
+    },
+    {
+      "name": "counterparty_location",
+      "numChildren": 0,
+      "children": null,
+      "id": "0669ad96-d6a0-401d-abae-2a84f1a955d5",
+      "properties": {
+        "DataOwner": "Andrew",
+        "DataOwnerDepartment": "Risk",
+        "DataElement": "Counterparty Location",
+        "DataConcept": "Counterparty",
+        "DataElementDefinition": "A country of incorporation for the counterparty."
+      }
+    },
+    {
+      "name": "Counterparty Latitude",
+      "numChildren": 0,
+      "children": null,
+      "id": "35d11405-f44d-4b84-ad1a-d1286162751d",
+      "properties": {
+        "DataOwner": "Andrew",
+        "DataOwnerDepartment": "Risk",
+        "DataElement": "Counterparty Latitude",
+        "DataConcept": "Counterparty",
+        "DataElementDefinition": "A latitude coordinate for the legal registered head office of the counterparty."
+      }
+    }
+  ],
+  "id": "b68444c0-9a6e-467b-baa7-65b7dc4b59c7",
+  "properties": {
+    "OBJECT_TYPE": "file"
+  }
+}
