@@ -3,6 +3,7 @@ const fs = require('fs')
 const _ = require('lodash')
 const replaceModelCommand = require('./src/update/replaceModelCommand')
 const replaceEntityCommand = require('./src/update/replaceEntityCommand')
+const createModelCommand = require('./src/createModelCommand')
 
 yargs
   .usage('Usage: node index.js update ReplaceModel|ReplaceEntity [arguments...]')
@@ -68,5 +69,33 @@ yargs
         type: 'string'
       })
   })
+  .command(
+    'create',
+    'Creates one or more models',
+    yargs => {
+      yargs
+        .option('number', {
+          alias: 'n',
+          demandOption: true,
+          describe: 'The number of models',
+          default: 1
+        })
+        .option('host', {
+          demandOption: true,
+          describe: 'The URL of the Solidatus instance',
+          type: 'string'
+        })
+        .option('token', {
+          demandOption: true,
+          describe: 'The URL of the Solidatus instance',
+          type: 'string'
+        })
+        .option('proxy', {
+          describe: 'The URL of the proxy',
+          type: 'string'
+        })
+    },
+    createModelCommand
+  )
   .demandCommand()
   .help().argv
