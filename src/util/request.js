@@ -1,11 +1,14 @@
 const fetch = require('node-fetch')
 const HttpsProxyAgent = require('https-proxy-agent')
+const _ = require('lodash')
 
 async function request(args, url, body, options = {}) {
   const headers = {
     'Content-Type': 'application/json',
     Authorization: 'Bearer ' + args.token
   }
+
+  _.defaults(options, { method: 'POST' })
 
   let agent
   if (args.proxy) {
@@ -16,29 +19,28 @@ async function request(args, url, body, options = {}) {
 
   if (!options.quiet) {
     console.log('>>> REQUEST >>>')
-    console.log(`POST ${fullUrl}`)
+    console.log(`${options.method} ${fullUrl}`)
     console.log(JSON.stringify(body, null, 2))
     console.log('----------')
   }
 
-  return await fetch(`${args.host}${url}`, {
-    method: 'POST',
+  const response = await fetch(`${args.host}${url}`, {
+    method: options.method,
     headers,
     agent,
-    body: JSON.stringify(body)
-  }).then(function(response) {
-    if (!options.quiet) {
-      console.log('<<< RESPONSE <<<')
-      console.log(`${response.status} ${response.statusText}`)
-      const jsonPromise = response.json()
-      jsonPromise.then(json => {
-        console.log(JSON.stringify(json, null, 2))
-        console.log('----------')
-      })
-      return jsonPromise
-    }
-    return response
+    body: body && JSON.stringify(body)
   })
+
+  const json = await response.json()
+
+  if (!options.quiet) {
+    console.log('<<< RESPONSE <<<')
+    console.log(`${response.status} ${response.statusText}`)
+    console.log(JSON.stringify(json, null, 2))
+    console.log('----------')
+  }
+
+  return json
 }
 
 module.exports = request
