@@ -5,6 +5,7 @@ const fs = require('fs')
 const _ = require('lodash')
 const replaceModelCommand = require('./src/update/replaceModelCommand')
 const replaceEntityCommand = require('./src/update/replaceEntityCommand')
+const executeCommands = require('./src/update/executeCommands')
 const createModelCommand = require('./src/createModelCommand')
 const applyPropertiesCommand = require('./src/applyPropertiesCommand')
 
@@ -67,6 +68,17 @@ const yargsUpdateCommand = yargs => {
           })
       },
       replaceEntityCommand
+    )
+    .command(
+      'executeCmds',
+      'Executes a list of commands in the provided JSON',
+      yargs => {
+        yargs.option('input', {
+          demandOption: true,
+          describe: 'The file containing Solidatus JSON input'
+        })
+      },
+      executeCommands
     )
     .option('model', {
       demandOption: true,
