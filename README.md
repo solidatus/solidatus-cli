@@ -30,6 +30,8 @@ Options:
 **Example**
 
 ```
+node index update ReplaceModel --model 5d81fb9e1dd9340001c0a6b4 --input json/model1.json --host https://demo.solidatus.com --token qwertyuiop
+
 node index update ReplaceEntity --model 5d81fb9e1dd9340001c0a6b4 --entity 01de253a-b668-46a6-a3bf-f09ac4c34ebf --input json/entity2.json --comparator id --host https://demo.solidatus.com --token qwertyuiop
 ```
 
