@@ -5,7 +5,7 @@ const fs = require('fs')
 const _ = require('lodash')
 const replaceModelCommand = require('./src/update/replaceModelCommand')
 const replaceEntityCommand = require('./src/update/replaceEntityCommand')
-const executeCommands = require('./src/update/executeCommands')
+const executeCommands = require('./src/node-fetch/executeCommands')
 const createModelCommand = require('./src/createModelCommand')
 const applyPropertiesCommand = require('./src/applyPropertiesCommand')
 
@@ -69,17 +69,6 @@ const yargsUpdateCommand = yargs => {
       },
       replaceEntityCommand
     )
-    .command(
-      'executeCmds',
-      'Executes a list of commands in the provided JSON',
-      yargs => {
-        yargs.option('input', {
-          demandOption: true,
-          describe: 'The file containing Solidatus JSON input'
-        })
-      },
-      executeCommands
-    )
     .option('model', {
       demandOption: true,
       describe: 'The ID of the model'
@@ -117,10 +106,31 @@ const yargsApplyPropertiesCommand = yargs => {
   return yargs
 }
 
+const yargsExecuteUpdateCommand = yargs => {
+  yargs
+    .option('modelId', {
+      demandOption: true,
+      describe: 'Solidatus model ID to update',
+      type: 'string'
+    })
+    .option('cmds', {
+      demandOption: true,
+      describe: 'JSON stringified model update commands',
+      type: 'string'
+    })
+    .option('nodeExtraCACerts', {
+      demandOption: false,
+      describe: 'Path to extra certs',
+      type: 'string'
+    })
+  yargsAddHostParams(yargs)
+}
+
 yargs
   .usage('Usage: node index.js update ReplaceModel|ReplaceEntity [arguments...]')
   .usage('Usage: node index.js create [arguments...]')
   .usage('Usage: node index.js apply-properties [arguments...]')
+  .usage('Usage: node index.js execute-commands [arguments...]')
   .command('update', 'Update a model (uses /api/v1/models/<model_id>/update)', yargsUpdateCommand)
   .command('create', 'Creates one or more models', yargsCreateCommand, createModelCommand)
   .command(
@@ -128,6 +138,12 @@ yargs
     'Apply properties to entities from a CSV file',
     yargsApplyPropertiesCommand,
     applyPropertiesCommand
+  )
+  .command(
+    'execute-commands',
+    'Execute commands on model passed in as JSON string arguments',
+    yargsExecuteUpdateCommand,
+    executeCommands
   )
   .demandCommand()
   .help().argv

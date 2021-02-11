@@ -39,16 +39,16 @@ node index update ReplaceEntity --model 5d81fb9e1dd9340001c0a6b4 --entity 01de25
 
 The apply-properties command takes a CSV file containing properties and updates the properties in a model based on an ID property.
 
-For example, withh existing Solidatus model which has entities which represent applications each with an "Application ID" property, the apply-properties command could load the following CSV file.
+For example, with existing Solidatus model which has entities which represent applications each with an "Application ID" property, the apply-properties command could load the following CSV file.
 
-| Application ID | Description             | IT Owner | Data Steward | 
-|----------------|-------------------------|----------|--------------| 
-| APP-123        | This is the application | Dan      | Dan          | 
-| APP-124        | This is the application | Rob      | Rob          | 
-| APP-125        | This is the application | Max      | Max          | 
-| APP-126        | This is the application | Alice    | Alice        | 
-| APP-127        | This is the application | Dan      | Rob          | 
-| APP-128        | This is the application | Rob      | Max          | 
+| Application ID | Description             | IT Owner | Data Steward |
+| -------------- | ----------------------- | -------- | ------------ |
+| APP-123        | This is the application | Dan      | Dan          |
+| APP-124        | This is the application | Rob      | Rob          |
+| APP-125        | This is the application | Max      | Max          |
+| APP-126        | This is the application | Alice    | Alice        |
+| APP-127        | This is the application | Dan      | Rob          |
+| APP-128        | This is the application | Rob      | Max          |
 
 The properties would be added/updated to those entities where the "Application ID" matches that in the CSV.
 
@@ -57,3 +57,25 @@ npm start apply-properties --host https://solidatus --token <api_token> --model 
 ```
 
 This would apply properties Description, IT Owner, Data Steward to all entities in the model which match an Application ID value in their Application ID property.
+
+## Execute stringified JSON commands
+
+For streamlined scripted execution, use this command option.
+
+```
+Usage: node index.js execute-commands [arguments...]
+
+Options:
+  --modelId           Solidatus model ID to update           [string] [required]
+  --cmds              JSON stringified model update commands [string] [required]
+  --nodeExtraCACerts  Path to extra certs                               [string]
+  --host              The URL of the Solidatus instance      [string] [required]
+  --token             Solidatus API token                    [string] [required]
+  --proxy             The URL of the proxy                              [string]
+```
+
+**Example**
+
+```
+node index.js execute-commands --modelId="6022d2f6c05af61bf5282ddb" --host="https://demo.solidatus.com" --token="API_TOKEN" --cmds='[{"cmd": "UpdateAllImports","fromModel": "6022d292c05af61bf528184b"},{"cmd": "UpdateAllImports","fromModel": "6022d2cbc05af61bf5282904"}]'
+```
